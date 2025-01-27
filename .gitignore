@@ -54,7 +54,6 @@ packages/
 *.pdb
 *.ilk
 *.lib
-*.json
 *.csv
 
 # Publish results
