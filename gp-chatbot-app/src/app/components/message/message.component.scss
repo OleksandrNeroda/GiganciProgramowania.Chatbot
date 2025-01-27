@@ -1,0 +1,31 @@
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+.user-message {
+  background-color: #e0f7fa;
+  align-self: flex-end;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+}
+
+.rating-icon {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.rating-icon.active {
+  opacity: 1 !important;
+}
+
+.rating-icon:hover {
+  opacity: 0.8;
+}

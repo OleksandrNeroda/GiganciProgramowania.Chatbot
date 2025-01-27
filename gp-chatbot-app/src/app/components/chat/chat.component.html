@@ -1,0 +1,37 @@
+<mat-card class="chat-container">
+  <mat-card-title>Giganci programowania AI Chatbot</mat-card-title>
+  <mat-card-content>
+    <div class="chat-history">
+      <app-message
+        *ngFor="let msg of messages"
+        [message]="msg"></app-message>
+      <div *ngIf="isTyping" class="typing-indicator">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <mat-form-field appearance="outline" class="input-field">
+      <input
+        matInput
+        [(ngModel)]="userInput"
+        placeholder="Wprowadź wiadomość..."/>
+    </mat-form-field>
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="sendMessage()"
+      [disabled]="!userInput.trim() || isTyping">
+      Wyślij
+    </button>
+    <button
+      mat-raised-button
+      color="warn"
+      (click)="cancelResponse()"
+      *ngIf="isTyping">
+      Anuluj
+    </button>
+  </mat-card-actions>
+</mat-card>

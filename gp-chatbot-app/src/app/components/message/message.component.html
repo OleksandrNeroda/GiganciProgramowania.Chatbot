@@ -1,0 +1,21 @@
+<div class="message" [ngClass]="{ 'user-message': message?.isUserMessage }">
+  <p>{{ message?.message }}</p>
+  <div *ngIf="!message?.isUserMessage" class="rating">
+    <mat-icon
+      class="rating-icon"
+      [ngClass]="{ 'active': message?.messageRateCode === Rating.Positive }"
+      (click)="onRate(Rating.Positive)"
+      [style.opacity]="message?.messageRateCode === Rating.Positive ? 1 : 0.5"
+    >
+      thumb_up
+    </mat-icon>
+    <mat-icon
+      class="rating-icon"
+      [ngClass]="{ 'active': message?.messageRateCode === Rating.Negative }"
+      (click)="onRate(Rating.Negative)"
+      [style.opacity]="message?.messageRateCode === Rating.Negative ? 1 : 0.5"
+    >
+      thumb_down
+    </mat-icon>
+  </div>
+</div>

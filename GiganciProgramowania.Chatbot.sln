@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiganciProgramowania.Chatbot.API", "GiganciProgramowania.Chatbot.API\GiganciProgramowania.Chatbot.API.csproj", "{B323779E-C832-4328-B9C2-5298E8CC7FF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiganciProgramowania.Chatbot.Domain", "GiganciProgramowania.Chatbot.Domain\GiganciProgramowania.Chatbot.Domain.csproj", "{C43BFA4F-D669-4B67-BDE1-1BE834FF21A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{D7398F30-86A4-4609-A3AE-CD9664B9BA69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiganciProgramowania.BuildingBlocks.Domain", "GiganciProgramowania.BuildingBlocks.Domain\GiganciProgramowania.BuildingBlocks.Domain.csproj", "{30B325E3-095B-4673-8828-AC53C1E41BBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiganciProgramowania.Chatbot.Application", "GiganciProgramowania.Chatbot.Application\GiganciProgramowania.Chatbot.Application.csproj", "{1AEDDC87-F9E8-4E8C-BA6C-243D95A0B2E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiganciProgramowania.Chatbot.Infrastructure", "GiganciProgramowania.Chatbot.Infrastructure\GiganciProgramowania.Chatbot.Infrastructure.csproj", "{55C5928B-FE3E-483F-B87B-DE790AB5D7D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B323779E-C832-4328-B9C2-5298E8CC7FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B323779E-C832-4328-B9C2-5298E8CC7FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B323779E-C832-4328-B9C2-5298E8CC7FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B323779E-C832-4328-B9C2-5298E8CC7FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43BFA4F-D669-4B67-BDE1-1BE834FF21A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43BFA4F-D669-4B67-BDE1-1BE834FF21A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43BFA4F-D669-4B67-BDE1-1BE834FF21A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43BFA4F-D669-4B67-BDE1-1BE834FF21A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B325E3-095B-4673-8828-AC53C1E41BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B325E3-095B-4673-8828-AC53C1E41BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B325E3-095B-4673-8828-AC53C1E41BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B325E3-095B-4673-8828-AC53C1E41BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEDDC87-F9E8-4E8C-BA6C-243D95A0B2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEDDC87-F9E8-4E8C-BA6C-243D95A0B2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEDDC87-F9E8-4E8C-BA6C-243D95A0B2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEDDC87-F9E8-4E8C-BA6C-243D95A0B2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C5928B-FE3E-483F-B87B-DE790AB5D7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C5928B-FE3E-483F-B87B-DE790AB5D7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C5928B-FE3E-483F-B87B-DE790AB5D7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C5928B-FE3E-483F-B87B-DE790AB5D7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30B325E3-095B-4673-8828-AC53C1E41BBC} = {D7398F30-86A4-4609-A3AE-CD9664B9BA69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69BE3847-3C35-4A76-A47A-BA3436BF7914}
+	EndGlobalSection
+EndGlobal
